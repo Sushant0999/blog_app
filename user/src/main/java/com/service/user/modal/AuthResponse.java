@@ -1,4 +1,4 @@
-package com.service.user.dto;
+package com.service.user.modal;
 
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -10,8 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Data
-public class AuthRequest {
-    private String email;
-    private String username;
-    private String password;
+public class AuthResponse {
+    private String token;
 }

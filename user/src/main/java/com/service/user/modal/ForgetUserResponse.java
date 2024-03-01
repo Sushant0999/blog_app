@@ -1,4 +1,4 @@
-package com.service.user.dto;
+package com.service.user.modal;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
